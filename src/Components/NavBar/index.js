@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MenuLink = styled(Link)`
   padding: 8px;
@@ -9,7 +9,7 @@ const MenuLink = styled(Link)`
   text-decoration: none;
   color: #000000;
   transition: all 0.3s ease-in;
-  font-size: 1.1  rem;
+  font-size: 1.1 rem;
   &:hover {
     color: #7b7fda;
   }
@@ -51,6 +51,9 @@ const Menu = styled.div`
     max-height: ${({ isOpen }) => (isOpen ? "300px" : "0")};
     transition: max-height 0.3s ease-in;
     width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    z-index: 10;
   }
 `;
 
@@ -70,12 +73,11 @@ const Hamburger = styled.div`
   }
 `;
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
-      <Logo href="/">
+      <Logo href="/media-portfolio/">
         Limelight<span>Studios</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -83,16 +85,15 @@ const Navbar = () => {
         <span />
         <span />
       </Hamburger>
-      <Menu isOpen={isOpen}>     
-        <MenuLink to='/'>Home</MenuLink>   
+      <Menu isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
+        <MenuLink to="/">Home</MenuLink>
         {/* <MenuLink to='/about'>About</MenuLink> */}
-        <MenuLink to='/photography'>Photography</MenuLink>
+        <MenuLink to="/photography">Photography</MenuLink>
         {/* <MenuLink to='/videography'>Videography</MenuLink> */}
-        <MenuLink to='/contact'>Contact</MenuLink>
+        <MenuLink to="/contact">Contact</MenuLink>
       </Menu>
     </Nav>
   );
 };
 
 export default Navbar;
-
