@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/media-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/media-portfolio/static/js/main.638907d9.js",
+    "main.js": "/media-portfolio/static/js/main.44c68938.js",
     "static/js/787.a2cb61a6.chunk.js": "/media-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/John-01090-2.jpg": "/media-portfolio/static/media/John-01090-2.97e60280a3e0f7aeae48.jpg",
     "static/media/img5.jpg": "/media-portfolio/static/media/img5.2f5979b297b69de01b08.jpg",
@@ -20,11 +20,11 @@
     "static/media/img2.jpg": "/media-portfolio/static/media/img2.4257a08ff4a5461d1a55.jpg",
     "static/media/img10.jpg": "/media-portfolio/static/media/img10.c6be86773f4c22afee78.jpg",
     "static/media/img14.jpg": "/media-portfolio/static/media/img14.2044323e4a3517db1426.jpg",
-    "static/media/img13.jpg": "/media-portfolio/static/media/img13.e8b18d39efdf80ca4493.jpg",
     "static/media/img7.jpg": "/media-portfolio/static/media/img7.ed9b50a6abb094f4a42a.jpg",
-    "static/media/img1.jpg": "/media-portfolio/static/media/img1.4cf602d3283bfaf9f16e.jpg",
+    "static/media/img1.jpg": "/media-portfolio/static/media/img1.ec6e67a9e32d1198edcf.jpg",
     "static/media/img19.jpg": "/media-portfolio/static/media/img19.5d0ca2f742778473e176.jpg",
     "static/media/img16.jpg": "/media-portfolio/static/media/img16.dbf0648c75dff7be1fb7.jpg",
+    "static/media/img13.jpg": "/media-portfolio/static/media/img13.e8b18d39efdf80ca4493.jpg",
     "static/media/img15.jpg": "/media-portfolio/static/media/img15.70a86e594da964f66606.jpg",
     "static/media/Events.jpg": "/media-portfolio/static/media/Events.ddcaf70b993183807cd1.jpg",
     "static/media/Sports.jpg": "/media-portfolio/static/media/Sports.a8ec59cb8b713ca3ab36.jpg",
@@ -43,11 +43,11 @@
     "static/media/Portraits.jpg": "/media-portfolio/static/media/Portraits.c00549f16da84686de12.jpg",
     "index.html": "/media-portfolio/index.html",
     "main.e6c13ad2.css.map": "/media-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.638907d9.js.map": "/media-portfolio/static/js/main.638907d9.js.map",
+    "main.44c68938.js.map": "/media-portfolio/static/js/main.44c68938.js.map",
     "787.a2cb61a6.chunk.js.map": "/media-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.638907d9.js"
+    "static/js/main.44c68938.js"
   ]
 }
