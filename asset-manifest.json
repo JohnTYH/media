@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/media-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/media-portfolio/static/js/main.44c68938.js",
+    "main.js": "/media-portfolio/static/js/main.5a13ef41.js",
     "static/js/787.a2cb61a6.chunk.js": "/media-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/John-01090-2.jpg": "/media-portfolio/static/media/John-01090-2.97e60280a3e0f7aeae48.jpg",
+    "static/media/wedding.jpg": "/media-portfolio/static/media/wedding.c069dc5e0c7dfa4029b5.jpg",
     "static/media/img5.jpg": "/media-portfolio/static/media/img5.2f5979b297b69de01b08.jpg",
     "static/media/main.jpg": "/media-portfolio/static/media/main.d05cd5d2c0c1584e6a7d.jpg",
     "static/media/John-04408.jpg": "/media-portfolio/static/media/John-04408.3e69b105ee222f2d271d.jpg",
     "static/media/img8.jpg": "/media-portfolio/static/media/img8.1639a4f7538e70022241.jpg",
-    "static/media/landing.jpg": "/media-portfolio/static/media/landing.0674ad937deee3aab27e.jpg",
     "static/media/img3.jpg": "/media-portfolio/static/media/img3.e8748b0b6e6bd2aa00f8.jpg",
     "static/media/John-402180.jpg": "/media-portfolio/static/media/John-402180.c7a30f45f1e429d5f856.jpg",
+    "static/media/yishion.jpg": "/media-portfolio/static/media/yishion.0bb9a3b8706c94408965.jpg",
     "static/media/Performances.jpg": "/media-portfolio/static/media/Performances.cc389d90a691fa7b99fe.jpg",
+    "static/media/fitmonkie.jpg": "/media-portfolio/static/media/fitmonkie.1114cfafd19a62f853b9.jpg",
     "static/media/img4.jpg": "/media-portfolio/static/media/img4.612ef8c62a5dda6aa426.jpg",
     "static/media/img20.jpg": "/media-portfolio/static/media/img20.e5f5a708d9369ac7994d.jpg",
     "static/media/img9.jpg": "/media-portfolio/static/media/img9.09b2bc71b790a905be27.jpg",
@@ -35,7 +36,6 @@
     "static/media/img17.jpg": "/media-portfolio/static/media/img17.711d0a70f37415e23476.jpg",
     "static/media/img18.jpg": "/media-portfolio/static/media/img18.bc9e561c86191323577c.jpg",
     "static/media/maisonbowl.jpg": "/media-portfolio/static/media/maisonbowl.cba214f0cd2f0844a137.jpg",
-    "static/media/John-01205.jpg": "/media-portfolio/static/media/John-01205.7b4e3ecf61951c42ca67.jpg",
     "static/media/Food.jpg": "/media-portfolio/static/media/Food.0ea9f2bae6f77d2a081b.jpg",
     "static/media/John-09535.jpg": "/media-portfolio/static/media/John-09535.5eab59ac64295beadab1.jpg",
     "static/media/img21.jpg": "/media-portfolio/static/media/img21.f05879297c56a783ef12.jpg",
@@ -43,11 +43,11 @@
     "static/media/Portraits.jpg": "/media-portfolio/static/media/Portraits.c00549f16da84686de12.jpg",
     "index.html": "/media-portfolio/index.html",
     "main.e6c13ad2.css.map": "/media-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.44c68938.js.map": "/media-portfolio/static/js/main.44c68938.js.map",
+    "main.5a13ef41.js.map": "/media-portfolio/static/js/main.5a13ef41.js.map",
     "787.a2cb61a6.chunk.js.map": "/media-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.44c68938.js"
+    "static/js/main.5a13ef41.js"
   ]
 }
