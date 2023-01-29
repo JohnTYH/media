@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
 const Wrapper = styled.div`
   padding-top: 6%;
@@ -140,9 +142,29 @@ const Divider = styled.div`
   }
 `;
 
+const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+`;
+
+const ButtonText = styled.div`
+  padding: 30px 10px;
+  display: flex;
+  font-family: "Satoshi", sans-serif;
+  line-height: 1;
+  font-size: 1.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    padding: 15px 0px;
+  }
+`;
+
 export const Gallery = ({ data }) => {
   var w = window.innerWidth;
   const [width, setWidth] = useState(w);
+  const history = useNavigate();
+
   useEffect(() => {
     const updateWindowDimensions = () => {
       const newWidth = window.innerWidth;
@@ -210,6 +232,14 @@ export const Gallery = ({ data }) => {
           </GallerySubContainer>
         </GalleryContainer>
       )}
+      <ButtonContainer onClick={() => history("/photography")}>
+        <ChevronLeftIcon
+          sx={{
+            margin: "auto 0",
+          }}
+        />
+        <ButtonText>Photography Gallery</ButtonText>
+      </ButtonContainer>
     </Wrapper>
   );
 };

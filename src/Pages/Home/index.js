@@ -2,17 +2,16 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import data from "../../data.json";
-import ContactForm from "../../Components/ContactForm";
 
-import LandingImage from "../../Images/Home/John-01205.jpg";
 import img1 from "../../Images/Home/John-402180.jpg";
 import img2 from "../../Images/Home/maisonbowl.jpg";
 import img3 from "../../Images/Home/John-04339.jpg";
 import img4 from "../../Images/Home/John-09535.jpg";
-import img5 from "../../Images/Home/landing.jpg";
-import img6 from "../../Images/Home/John-01090-2.jpg";
 import img7 from "../../Images/Home/John-04408.jpg";
 import img8 from "../../Images/Home/John-09953-3.jpg";
+import Yishion from "../../Images/Home/yishion.jpg";
+import Fitmonkie from "../../Images/Home/fitmonkie.jpg";
+import Wedding from "../../Images/Home/wedding.jpg";
 
 const MainContainer = styled.div`
   padding-left: 5.5%;
@@ -36,6 +35,11 @@ const ProjectDualImageContainer = styled.div`
     display: block;
     padding: 20px 0 0 0;
   }
+`;
+
+const ProjectDualImageContainerPortrait = styled.div`
+  display: flex;
+  padding: 25px 0 0 0;
 `;
 
 const ProjectImageContainer = styled.div`
@@ -75,6 +79,7 @@ const LeftContainer = styled.div`
 `;
 
 const TextHeader = styled.div`
+  display: flex;
   font-family: futura-pt;
   font-size: 1.5rem;
 `;
@@ -94,6 +99,14 @@ const RightContainer = styled.div`
   }
 `;
 
+const ContainerPortrait = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    padding: 0 3px;
+  }
+`;
+
 const Padding = styled.div`
   padding: 20px 0 0 0;
 `;
@@ -105,6 +118,8 @@ const ServicesContainer = styled.div`
   }
 `;
 const ContainerJNH = styled.div``;
+
+const ContainerWedding = styled.div``;
 
 const Container = styled.div`
   display: flex;
@@ -165,57 +180,8 @@ const HeaderContainer = styled.div`
   display: inline-block;
 `;
 
-const Button = styled.button`
-  background-color: #f0ecfc;
-  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-
-  &:after {
-    content: "";
-    right: 0;
-    bottom: 0;
-    background: #c797eb;
-    /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(255,255,255,.5),
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
-    transition: all 0.3s ease;
-`;
-
 const Wrapper = styled.div`
   padding: 20px 0 0 0;
-`;
-const Test = styled.a`
-  background: linear-gradient(
-      to right,
-      rgba(100, 200, 200, 1),
-      rgba(100, 200, 200, 1)
-    ),
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 180, 1),
-      rgba(0, 100, 200, 1)
-    );
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-  focus,
-  hover {
-    background-size: 0 0.1em, 100% 0.1em;
-  }
-`;
-const ContactContainer = styled.div`
-  margin: auto;
-  max-width: 856px;
-  width: 100%;
-  border: 1px solid;
-`;
-const Padding2 = styled.div`
-  padding: 20px 0 50px 0;
 `;
 
 export const Home = () => {
@@ -246,6 +212,34 @@ export const Home = () => {
         </ServicesContainer>
         <SubHeader>GALLERY</SubHeader>
         <ProjectHeader>Featured Projects</ProjectHeader>
+        <ProjectImageContainer>
+          <ContainerWedding>
+            <ImageContainer
+              src={Wedding}
+              onClick={() => history("/Weddings")}
+            />
+            <TextHeader>Wedding Proposal</TextHeader>
+            <TextBox>Swan Lake @ Botanic Gardens</TextBox>
+          </ContainerWedding>
+        </ProjectImageContainer>
+        <ProjectDualImageContainerPortrait>
+          <ContainerPortrait>
+            <ImageContainer
+              src={Fitmonkie}
+              onClick={() => history("/Portraits")}
+            />
+            <TextHeader>Sponsored Shoots</TextHeader>
+            <TextBox>Fitmonkie</TextBox>
+          </ContainerPortrait>
+          <ContainerPortrait>
+            <ImageContainer
+              src={Yishion}
+              onClick={() => history("/Portraits")}
+            />
+            <TextHeader>Sponsored Shoots</TextHeader>
+            <TextBox>Yishion</TextBox>
+          </ContainerPortrait>
+        </ProjectDualImageContainerPortrait>
         <ProjectDualImageContainer>
           <LeftContainer>
             <ImageContainer
