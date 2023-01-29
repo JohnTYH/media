@@ -100,6 +100,7 @@ const RightContainer = styled.div`
 `;
 
 const ContainerPortrait = styled.div`
+  padding 0 10px;
   display: flex;
   flex-direction: column;
   @media (max-width: 768px) {
@@ -180,6 +181,14 @@ const HeaderContainer = styled.div`
   display: inline-block;
 `;
 
+const SponsoredContainer = styled.div`
+  padding 0 10px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    padding: 0 3px;
+}`;
+
 const Wrapper = styled.div`
   padding: 20px 0 0 0;
 `;
@@ -228,18 +237,18 @@ export const Home = () => {
               src={Fitmonkie}
               onClick={() => history("/Portraits")}
             />
-            <TextHeader>Sponsored Shoots</TextHeader>
-            <TextBox>Fitmonkie</TextBox>
           </ContainerPortrait>
           <ContainerPortrait>
             <ImageContainer
               src={Yishion}
               onClick={() => history("/Portraits")}
             />
-            <TextHeader>Sponsored Shoots</TextHeader>
-            <TextBox>Yishion</TextBox>
           </ContainerPortrait>
         </ProjectDualImageContainerPortrait>
+        <SponsoredContainer>
+          <TextHeader>Sponsored Shoots</TextHeader>
+          <TextBox>Fitmonkie x Yishion</TextBox>
+        </SponsoredContainer>
         <ProjectDualImageContainer>
           <LeftContainer>
             <ImageContainer

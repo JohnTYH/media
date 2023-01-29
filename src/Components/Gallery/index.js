@@ -160,6 +160,13 @@ const ButtonText = styled.div`
   }
 `;
 
+const Padding = styled.div`
+  padding-bottom: 60px;
+  @media (max-width: 768px) {
+    padding-bottom: 35px;
+  }
+`;
+
 export const Gallery = ({ data }) => {
   var w = window.innerWidth;
   const [width, setWidth] = useState(w);
@@ -240,6 +247,7 @@ export const Gallery = ({ data }) => {
         />
         <ButtonText>Photography Gallery</ButtonText>
       </ButtonContainer>
+      <Padding />
     </Wrapper>
   );
 };
