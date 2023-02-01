@@ -17,10 +17,10 @@ const ImageContainer = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: ${(props) => (props.hovering ? "30%" : "100%")};
+  opacity: ${(props) => (props.hovering ? "40%" : "100%")};
   transition: opacity 0.15s ease-out;
   @media (max-width: 768px) {
-    opacity: 60%;
+    opacity: 70%;
   }
 `;
 
