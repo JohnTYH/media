@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/media-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/media-portfolio/static/js/main.809801dd.js",
+    "main.js": "/media-portfolio/static/js/main.9ac79212.js",
     "static/js/787.a2cb61a6.chunk.js": "/media-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/wedding.jpg": "/media-portfolio/static/media/wedding.c069dc5e0c7dfa4029b5.jpg",
     "static/media/img5.jpg": "/media-portfolio/static/media/img5.2f5979b297b69de01b08.jpg",
     "static/media/main.jpg": "/media-portfolio/static/media/main.d05cd5d2c0c1584e6a7d.jpg",
     "static/media/John-04408.jpg": "/media-portfolio/static/media/John-04408.3e69b105ee222f2d271d.jpg",
     "static/media/img8.jpg": "/media-portfolio/static/media/img8.1639a4f7538e70022241.jpg",
-    "static/media/img3.jpg": "/media-portfolio/static/media/img3.e8748b0b6e6bd2aa00f8.jpg",
+    "static/media/img4.jpg": "/media-portfolio/static/media/img4.612ef8c62a5dda6aa426.jpg",
     "static/media/John-402180.jpg": "/media-portfolio/static/media/John-402180.c7a30f45f1e429d5f856.jpg",
     "static/media/yishion.jpg": "/media-portfolio/static/media/yishion.0bb9a3b8706c94408965.jpg",
     "static/media/Performances.jpg": "/media-portfolio/static/media/Performances.cc389d90a691fa7b99fe.jpg",
     "static/media/fitmonkie.jpg": "/media-portfolio/static/media/fitmonkie.1114cfafd19a62f853b9.jpg",
-    "static/media/img4.jpg": "/media-portfolio/static/media/img4.612ef8c62a5dda6aa426.jpg",
+    "static/media/img3.jpg": "/media-portfolio/static/media/img3.e8748b0b6e6bd2aa00f8.jpg",
     "static/media/img20.jpg": "/media-portfolio/static/media/img20.e5f5a708d9369ac7994d.jpg",
     "static/media/img9.jpg": "/media-portfolio/static/media/img9.09b2bc71b790a905be27.jpg",
     "static/media/img11.jpg": "/media-portfolio/static/media/img11.a5cfbaccdd7320584aa8.jpg",
@@ -43,11 +43,11 @@
     "static/media/Portraits.jpg": "/media-portfolio/static/media/Portraits.c00549f16da84686de12.jpg",
     "index.html": "/media-portfolio/index.html",
     "main.e6c13ad2.css.map": "/media-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.809801dd.js.map": "/media-portfolio/static/js/main.809801dd.js.map",
+    "main.9ac79212.js.map": "/media-portfolio/static/js/main.9ac79212.js.map",
     "787.a2cb61a6.chunk.js.map": "/media-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.809801dd.js"
+    "static/js/main.9ac79212.js"
   ]
 }
