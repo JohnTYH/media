@@ -161,7 +161,7 @@ const ButtonText = styled.div`
 const Padding = styled.div`
   padding-bottom: 60px;
   @media (max-width: 768px) {
-    padding-bottom: 35px;
+    padding-bottom: 15px;
   }
 `;
 
@@ -246,11 +246,6 @@ export const Gallery = ({ data }) => {
         <ButtonText>Photography Gallery</ButtonText>
       </ButtonContainer>
       <Padding />
-      {/* <iframe
-        src="https://www.youtube.com/embed/PYTzJEJXa1E"
-        allowFullScreen="true"
-        webkitallowfullscreen="true"
-      ></iframe> */}
     </Wrapper>
   );
 };

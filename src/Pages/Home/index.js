@@ -108,7 +108,7 @@ const RightContainer = styled.div`
 `;
 
 const ContainerPortrait = styled.div`
-  padding 0 10px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   @media (max-width: 768px) {
@@ -202,7 +202,10 @@ const Wrapper = styled.div`
 `;
 
 const PaddingBottom = styled.div`
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+  @media (max-width: 768px) {
+    padding-bottom: 20px;
+  }
 `;
 
 export const Home = () => {
