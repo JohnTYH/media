@@ -9,6 +9,8 @@ import img3 from "../../Images/Home/John-04339.jpg";
 import img4 from "../../Images/Home/John-09535.jpg";
 import img7 from "../../Images/Home/John-04408.jpg";
 import img8 from "../../Images/Home/John-09953-3.jpg";
+import Event1 from "../../Images/Home/event1.jpg";
+import Event2 from "../../Images/Home/event2.jpg";
 import Yishion from "../../Images/Home/yishion.jpg";
 import Fitmonkie from "../../Images/Home/fitmonkie.jpg";
 import Wedding from "../../Images/Home/wedding.jpg";
@@ -61,6 +63,12 @@ const ProjectHeader = styled.div`
 const ImageContainer = styled.img`
   width: 100%;
   height: auto;
+  object-fit: cover;
+`;
+
+const ImageContainer2 = styled.img`
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 `;
 
@@ -169,7 +177,7 @@ const ColorHeader = styled.div`
   font-weight: 100;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  background-image: linear-gradient(60deg, #457b9d, #a8dadc);
   color: transparent;
   padding-bottom: 5px;
   @media (max-width: 768px) {
@@ -193,6 +201,10 @@ const Wrapper = styled.div`
   padding: 20px 0 0 0;
 `;
 
+const PaddingBottom = styled.div`
+  padding-bottom: 60px;
+`;
+
 export const Home = () => {
   const history = useNavigate();
 
@@ -214,9 +226,6 @@ export const Home = () => {
             <Wrapper>
               <TextBox2>{data.aboutMeLanding2}</TextBox2>
             </Wrapper>
-            {/* <Wrapper><Test>about me</Test></Wrapper> */}
-            {/* <Button>Photography</Button>
-                    <Button>Videography</Button> */}
           </ContainerText>
         </ServicesContainer>
         <SubHeader>GALLERY</SubHeader>
@@ -231,6 +240,18 @@ export const Home = () => {
             <TextBox>Swan Lake @ Botanic Gardens</TextBox>
           </ContainerWedding>
         </ProjectImageContainer>
+        <ProjectDualImageContainerPortrait>
+          <ContainerPortrait>
+            <ImageContainer2 src={Event1} onClick={() => history("/Events")} />
+          </ContainerPortrait>
+          <ContainerPortrait>
+            <ImageContainer2 src={Event2} onClick={() => history("/Events")} />
+          </ContainerPortrait>
+        </ProjectDualImageContainerPortrait>
+        <SponsoredContainer>
+          <TextHeader>Corporate and Personal Events</TextHeader>
+          <TextBox>Minister's Conversation x Citibank</TextBox>
+        </SponsoredContainer>
         <ProjectDualImageContainerPortrait>
           <ContainerPortrait>
             <ImageContainer
@@ -273,6 +294,7 @@ export const Home = () => {
             <TextBox>NUS Business - Jam & Hop Pageant</TextBox>
           </ContainerJNH>
         </ProjectImageContainer>
+        <PaddingBottom />
         {/* <ContactContainer>
                 <ContactForm></ContactForm>
             </ContactContainer>

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ContactForm from "../../Components/ContactForm";
+// import ContactForm from "../../Components/ContactForm";
 
 const Wrapper = styled.div`
   padding-top: 16%;

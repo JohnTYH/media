@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
 const Wrapper = styled.div`
@@ -26,15 +24,15 @@ const GalleryContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
 `;
-const GalleryInnerContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+// const GalleryInnerContainer = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
+//   @media (max-width: 768px) {
+//     flex-direction: column;
+//   }
+// `;
 const GallerySubContainer = styled.div`
   display: flex;
   flex-direction: column;
