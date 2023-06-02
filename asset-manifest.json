@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/media-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/media-portfolio/static/js/main.b45ff7fb.js",
+    "main.js": "/media-portfolio/static/js/main.986d01ee.js",
     "static/js/787.a2cb61a6.chunk.js": "/media-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/wedding.jpg": "/media-portfolio/static/media/wedding.c069dc5e0c7dfa4029b5.jpg",
     "static/media/img5.jpg": "/media-portfolio/static/media/img5.2f5979b297b69de01b08.jpg",
@@ -21,6 +21,7 @@
     "static/media/img2.jpg": "/media-portfolio/static/media/img2.4257a08ff4a5461d1a55.jpg",
     "static/media/img10.jpg": "/media-portfolio/static/media/img10.c6be86773f4c22afee78.jpg",
     "static/media/img14.jpg": "/media-portfolio/static/media/img14.2044323e4a3517db1426.jpg",
+    "static/media/event2.jpg": "/media-portfolio/static/media/event2.25449c73661e4e75c99f.jpg",
     "static/media/img7.jpg": "/media-portfolio/static/media/img7.ed9b50a6abb094f4a42a.jpg",
     "static/media/img1.jpg": "/media-portfolio/static/media/img1.ec6e67a9e32d1198edcf.jpg",
     "static/media/img19.jpg": "/media-portfolio/static/media/img19.5d0ca2f742778473e176.jpg",
@@ -28,8 +29,8 @@
     "static/media/img13.jpg": "/media-portfolio/static/media/img13.e8b18d39efdf80ca4493.jpg",
     "static/media/img15.jpg": "/media-portfolio/static/media/img15.70a86e594da964f66606.jpg",
     "static/media/Events.jpg": "/media-portfolio/static/media/Events.ddcaf70b993183807cd1.jpg",
+    "static/media/event1.jpg": "/media-portfolio/static/media/event1.2f992ae80ae4312e8ae1.jpg",
     "static/media/Sports.jpg": "/media-portfolio/static/media/Sports.a8ec59cb8b713ca3ab36.jpg",
-    "static/media/event2.jpg": "/media-portfolio/static/media/event2.4b409c73e3bdfda89aea.jpg",
     "static/media/Grad.jpg": "/media-portfolio/static/media/Grad.5b8d928bd27b219b585b.jpg",
     "static/media/Weddings.jpg": "/media-portfolio/static/media/Weddings.5e977e022cb5c0a4ed9b.jpg",
     "static/media/John-04339.jpg": "/media-portfolio/static/media/John-04339.982aa3be447c3b169ca6.jpg",
@@ -37,7 +38,6 @@
     "static/media/img17.jpg": "/media-portfolio/static/media/img17.711d0a70f37415e23476.jpg",
     "static/media/img18.jpg": "/media-portfolio/static/media/img18.bc9e561c86191323577c.jpg",
     "static/media/maisonbowl.jpg": "/media-portfolio/static/media/maisonbowl.cba214f0cd2f0844a137.jpg",
-    "static/media/event1.jpg": "/media-portfolio/static/media/event1.6e2ff79282005511ab53.jpg",
     "static/media/Food.jpg": "/media-portfolio/static/media/Food.0ea9f2bae6f77d2a081b.jpg",
     "static/media/John-09535.jpg": "/media-portfolio/static/media/John-09535.5eab59ac64295beadab1.jpg",
     "static/media/img21.jpg": "/media-portfolio/static/media/img21.f05879297c56a783ef12.jpg",
@@ -46,11 +46,11 @@
     "static/media/Instagram.svg": "/media-portfolio/static/media/Instagram.787b1447c6450bcdbb2fdcba9c894a7f.svg",
     "index.html": "/media-portfolio/index.html",
     "main.e6c13ad2.css.map": "/media-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.b45ff7fb.js.map": "/media-portfolio/static/js/main.b45ff7fb.js.map",
+    "main.986d01ee.js.map": "/media-portfolio/static/js/main.986d01ee.js.map",
     "787.a2cb61a6.chunk.js.map": "/media-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b45ff7fb.js"
+    "static/js/main.986d01ee.js"
   ]
 }
